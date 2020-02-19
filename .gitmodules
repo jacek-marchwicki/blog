@@ -1,0 +1,3 @@
+[submodule "blog/themes/docsy"]
+	path = blog/themes/docsy
+	url = git@github.com:jacek-marchwicki/docsy.git

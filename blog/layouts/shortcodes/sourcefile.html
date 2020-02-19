@@ -1,0 +1,11 @@
+{{ $gh_repo := ($.Page.Site.Params.github_repo) }}
+{{ $gh_branch := (default "master" ($.Page.Site.Params.github_branch)) }}
+{{ $gh_subdir := ($.Page.Site.Params.github_subdir) }}
+{{ $path := (.Get 0) }}
+
+{{ $tree_url := printf "%s/tree/%s/%s" $gh_repo $gh_branch $path }}
+{{ if $gh_subdir }}
+{{ $tree_url := printf "%s/tree/%s/%s/%s" $gh_repo $gh_branch $gh_subdir $path }}
+{{ end }}
+
+{{ $tree_url }}
