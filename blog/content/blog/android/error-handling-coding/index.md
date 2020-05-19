@@ -9,7 +9,7 @@ description: >
 resources:
 - src: "featured-title.jpg"
   params:
-    byline: "Image from [Unsplash](https://unsplash.com/photos/66ufHo7498k)"
+    byline: "Image from [Unsplash](https://unsplash.com)"
 ---
 
 If you haven't read [Errors... oh... those errors]({{< ref "/blog/engineering/error-handling/index.md" >}}), please read it first
