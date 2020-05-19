@@ -13,11 +13,9 @@ hugo server
 
  ```
  
- ## Generating blog 
+ ## Deploying blog
  ```bash
  cd blog
  curl https://htmltest.wjdp.uk | bash
- rm -rf public
- env HUGO_ENV="production" hugo --gc
  bin/htmltest public
  ```

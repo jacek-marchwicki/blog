@@ -1,3 +1,6 @@
 [submodule "blog/themes/docsy"]
 	path = blog/themes/docsy
 	url = git@github.com:jacek-marchwicki/docsy.git
+[submodule "blog/public"]
+	path = blog/public
+	url = git@github.com:jacek-marchwicki/jacek-marchwicki.github.io.git
