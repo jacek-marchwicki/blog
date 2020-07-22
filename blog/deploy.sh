@@ -48,3 +48,6 @@ git commit "$@"
 
 # Push source and build repos.
 git push origin master
+
+
+printf "\033[0;32mDeployed\033[0m\n"

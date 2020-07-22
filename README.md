@@ -13,9 +13,10 @@ hugo server
 
  ```
  
- ## Deploying blog
- ```bash
- cd blog
- curl https://htmltest.wjdp.uk | bash
- bin/htmltest public
- ```
+## Deploying blog
+```bash
+cd blog
+curl https://htmltest.wjdp.uk | bash
+./deploy.sh
+```
+ 
