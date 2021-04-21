@@ -12,9 +12,7 @@ resources:
   params:
     byline: "Image from [European Southern Observatory](https://www.eso.org/public/images/eso0932a/)"
   
---- 
-
-{{< imgproc title Resize "600x300" >}}The Milky Way panorama{{< /imgproc >}}
+---
 
 
 Our client was so content with our iOS development that he asked Karol (CEO and one of AppUnite’s co-founders) to develop the same app for Android. Karol refused because AppUnite hadn’t had experience developing Android apps. Actually, 2 years before I’d worked with Android and by then was completely besotted by it. But experience and love didn’t mean “production-ready”. This didn’t discourage the client, he knew that we are good developers and we have good project management strategies so he insisted. Karol refused, explaining to the client the risk of not delivering good quality product because of developing an app for the new platform. The client knew that in his iOS app, we had implemented features that hadn’t been on the market at the time, so he knew that the risk was smaller than looking for other company. Karol asked me if I want to start developing the same app for Android. I said in Polish “kto nie ryzykuje, ten nie pije szampana” (this Polish proverb means, in free translation: who doesn’t risk, doesn’t drink champagne). Karol talked to the client and ensured that he was willing to take the risk.
