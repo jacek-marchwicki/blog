@@ -16,6 +16,8 @@ trap "cleanup" INT QUIT TERM EXIT
 
 printf "\033[0;32mCleaning build repository...\033[0m\n"
 
+(cd public && git checkout master && git pull)
+
 # Deleting all the .git stuff
 find public -mindepth 1 ! -path public/.git -delete
 # How to debug: find public -mindepth 1 ! -path public/.git -print
