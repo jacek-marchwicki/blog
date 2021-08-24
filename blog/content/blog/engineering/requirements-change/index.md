@@ -1,6 +1,6 @@
 ---
-title: "When a requirement is not worth implementing"
-linkTitle: "When a requirement is not worth implementing"
+title: "When a product requirement is not worth implementing"
+linkTitle: "When a product requirement is not worth implementing"
 date: 2021-08-23
 author: Jacek Marchwicki
 summary: >
@@ -21,7 +21,7 @@ This sometimes leads to under-estimating certain features. The results can be as
 Every team member needs to be able to raise the alarm if something is taking more time than it should, or if they notice that implementing a given requirement becomes too expensive or too time-consuming. But how do we enable everyone to make such decisions or alert others so that the decision can be made jointly by the entire team?
 I’d like to point out a few things that should be taken into account. But first, let’s have an example for illustration purposes:
  
-*Your team is working on a social app. The new requirement is to allow users to upload their profile images. The implementation of a part of the feature was initially estimated as ~2 work-days. But the developer responsible for this task spent 2 days on it and said that it was too hard to fulfil the requirement of the profile image upload limit of at least 5 MB while having a 512 kB limit set on the whole system.*
+*Your team is working on a social app. The new requirement is to allow users to upload their profile images. The implementation of a part of the feature was initially estimated as ~2 work-days. But the developer responsible for this task spent 2 days on it and said that it was too hard to fulfill the requirement of the profile image upload limit of at least 5 MB while having a 512 kB limit set on the whole system.*
 
 # How important is the feature/requirement for the final product?
 
