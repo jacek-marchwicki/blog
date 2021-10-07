@@ -10,7 +10,7 @@ description: >
 resources:
 - src: "featured-title.jpg"
   params:
-    byline: "Image from [unsplash](https://unsplash.com/photos/StGNEUWXDBI)"
+    byline: "Image from [unsplash](https://unsplash.com/)"
 ---
 
 ## Let's start with an example
