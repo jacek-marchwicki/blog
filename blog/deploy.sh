@@ -16,6 +16,8 @@ trap "cleanup" INT QUIT TERM EXIT
 
 printf "\033[0;32mCleaning build repository...\033[0m\n"
 
+
+(cd public && git clean -x -f -d && git reset --hard HEAD)
 (cd public && git checkout master && git pull)
 
 # Deleting all the .git stuff
@@ -27,7 +29,7 @@ printf "\033[0;32mBuilding hugo project...\033[0m\n"
 env HUGO_ENV="production" hugo --gc
 
 printf "\033[0;32mVerifing links...\033[0m\n"
-bin/htmltest public
+bin/htmltest
 
 printf "\033[0;32mOpenning broser (press ctrl+c after manual verifing)...\033[0m\n"
 ./node_modules/.bin/static-html-server -r public &
