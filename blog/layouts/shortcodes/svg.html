@@ -1,0 +1,13 @@
+<!--layouts/shortcodes/svg.html-->
+{{ $svg := .Page.Resources.GetMatch (printf "**%s*" (.Get 0)) }}
+{{ $width := .Get 1 }}
+{{ $height := .Get 2 }}
+
+<div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: {{ add $width 10 }}px">
+	<img class="card-img-top" src="{{ $svg.RelPermalink }}" width="{{ $width }}" height="{{ $height }}" alt="{{ .Inner }}">
+	{{ with .Inner }}
+	<div class="card-body px-0 pt-2 pb-0">
+		<p class="card-text">{{ . | markdownify }}</p>
+	</div>
+	{{ end }}
+</div>
