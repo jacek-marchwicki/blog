@@ -42,3 +42,4 @@ The goal of this article is not to offer ready-to-implement solutions, but to of
 
 Your homework - decide which level needs action the most in your organization and… act!
 
+This article was originally published at [AppUnite.com](https://appunite.com/blog/the-problem-of-knowledge-sharing).
