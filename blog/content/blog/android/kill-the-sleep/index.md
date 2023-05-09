@@ -9,7 +9,7 @@ summary: >
 resources:
 - src: "featured-title.jpg"
   params:
-    byline: "Image from [unsplash](https://unsplash.com/photos/BzIC8ioj7Ms)"
+    byline: "Image from [unsplash](https://unsplash.com/)"
 --- 
 
 During development of Android tests you’ve written something like this:

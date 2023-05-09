@@ -14,7 +14,7 @@ description: >
 resources:
 - src: "featured-title.jpg"
   params:
-    byline: "Image from [unsplash](https://unsplash.com/photos/eofm5R5f9Kw)"
+    byline: "Image from [unsplash](https://unsplash.com/)"
 --- 
 
 ## Description.
