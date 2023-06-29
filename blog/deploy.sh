@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-if [ ! -d "public" ] || [ ! -f "config.toml" ]; then
+if [ ! -d "public" ] || [ ! -f "hugo.toml" ]; then
   echo "You need to execute this script in blog directory" 1>&2;
   exit 1;
 fi

@@ -116,3 +116,15 @@ no = 'Sorry to hear that. Please <a href="https://github.com/jacek-marchwicki/bl
 	icon = "fab fa-github"
     desc = "Development takes place here!"
 
+[module]
+  # uncomment line below for temporary local development of module
+   replacements = "github.com/google/docsy -> docsy"
+  [module.hugoVersion]
+    extended = true
+    min = "0.110.0"
+  [[module.imports]]
+    path = "github.com/google/docsy"
+    disable = false
+  [[module.imports]]
+    path = "github.com/google/docsy/dependencies"
+    disable = false
