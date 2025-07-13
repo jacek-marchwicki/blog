@@ -2,8 +2,9 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Developer Blog - Jacek Marchwicki"
 description = "Blog about Android and Flutter development"
+theme = ["github.com/google/docsy"]
 
-theme = ["docsy"]
+
 
 enableRobotsTXT = true
 
@@ -117,8 +118,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/jacek-marchwicki/bl
     desc = "Development takes place here!"
 
 [module]
-  # uncomment line below for temporary local development of module
-   replacements = "github.com/google/docsy -> docsy"
+  
   [module.hugoVersion]
     extended = true
     min = "0.110.0"

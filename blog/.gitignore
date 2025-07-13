@@ -2,3 +2,4 @@ bin/
 tmp/
 resources/
 node_modules/
+_vendor/
